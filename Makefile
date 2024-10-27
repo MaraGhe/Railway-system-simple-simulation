@@ -1,7 +1,7 @@
 all: build
 
-build: railway_sim.c
-	gcc railway_sim.c -o railway_sim -g
+build: src/railway_sim.c
+	gcc src/railway_sim.c -o src/railway_sim -g
 
 clean:
-	rm railway_sim
+	rm src/railway_sim
