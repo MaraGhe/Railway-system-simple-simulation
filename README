@@ -1,5 +1,5 @@
 # Simulation of a railway system and its degradation over time using data structures
-Gheorghe Mara, Politehnica University of Bucharest
+Mara Gheorghe, Politehnica University of Bucharest
 
 Description: Each route between two cities consists of a number of connected sections and each section has a degree of wear and tear. Each year, all degrees greater than 0 double in value. Those with a 0 value take half the value of the highest degree of wear among its neighbouring sections.
 
@@ -30,3 +30,4 @@ The following data structures were dinamically allocated:
  - adjacency lists to represent the undirected graph that holds all information about the system besides degrees of wear
  - array of pairs (name, index) for cities to easily access a city's name knowing its index
  - matrix of arrays to store the degrees of wear and tear for all sections
+
