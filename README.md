@@ -1,4 +1,4 @@
-# Simulation of a railway system and its degradation over time using data structures
+# Simple simulation of a railway system
 Mara Gheorghe, Politehnica University of Bucharest
 
 Description: Each route between two cities consists of a number of connected sections and each section has a degree of wear and tear. Each year, all degrees greater than 0 double in value. Those with a 0 value take half the value of the highest degree of wear among its neighbouring sections.
